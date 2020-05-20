@@ -4,9 +4,9 @@
 
 require_once(__DIR__ . '/../config/config.php');
 
-// $app = new MyApp\Controller\Login();
-//
-// $app->run();
+$app = new MyApp\Controller\Login();
+
+$app->run();
 
 // echo "login screen";
 // exit;
@@ -29,6 +29,7 @@ require_once(__DIR__ . '/../config/config.php');
         <input type="password" name="password" placeholder="password">
       </p>
       <div class="btn">Log In</div>
+      <p class="fs12"><a href="/signup.php">Sign Up</a></p>
     </form>
   </div>
 </body>
